@@ -1,0 +1,38 @@
+{
+    "Users":[
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "admin123"
+        }
+    ],
+    "Devices": [
+        {
+            "id": 1,
+            "name": "cisco",
+            "type": "router",
+            "port": "8080",
+            "status": "connected",
+            "deviceConnected": "5",
+            "lastDiscovered": "2023-08-10 08:08:30"
+        },
+        {
+            "id": 2,
+            "name": "cisco2",
+            "type": "router",
+            "port": "8081",
+            "status": "connected",
+            "deviceConnected": "5",
+            "lastDiscovered": "2023-08-10 08:08:31"
+        },
+        {
+            "id": 3,
+            "name": "cisco2",
+            "type": "router",
+            "port": "8081",
+            "status": "connected",
+            "deviceConnected": "5",
+            "lastDiscovered": "2023-08-10 08:08:31"
+        }
+    ]
+}
