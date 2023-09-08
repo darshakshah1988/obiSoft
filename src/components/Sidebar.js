@@ -12,9 +12,10 @@ export function Sidebar(props) {
     return (
         <>
         <nav className="main-menu">
+            <center><img src="https://ik.imagekit.io/qmm9bxxcw/IOT/OBI_Logo.png?updatedAt=1691582029328" style={{ "width": "80px", "height": "80px" }} /></center>
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="/dashboard">
                         <i className="fa fa-home fa-2x"></i>
                         <span className="nav-text">
                            Dashboard
@@ -22,7 +23,7 @@ export function Sidebar(props) {
                     </a>
                   
                 </li>
-                <li className="has-subnav">
+                {/* <li className="has-subnav">
                     <a href="#">
                         <i className="fa fa-globe fa-2x"></i>
                         <span className="nav-text">
@@ -30,12 +31,12 @@ export function Sidebar(props) {
                         </span>
                     </a>
                     
-                </li>
+                </li> */}
                 <li className="has-subnav">
-                    <a href="#">
+                    <a href="/dashboard/networks">
                        <i className="fa fa-comments fa-2x"></i>
                         <span className="nav-text">
-                            Network List
+                            All Sites
                         </span>
                     </a>
                     
